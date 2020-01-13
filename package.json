@@ -1,0 +1,36 @@
+{
+  "name": "Facebook-clone-api",
+  "version": "1.0.0",
+  "description": "Facebook clone API using GraphQL and Typescript",
+  "main": "index.js",
+  "dependencies": {
+    "graphql": "^14.5.8",
+    "koa": "^2.11.0",
+    "koa-graphql": "^0.8.0",
+    "koa-mount": "^4.0.0",
+    "koa-router": "^7.4.0",
+    "mongoose": "^5.8.7"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.11.0",
+    "@types/koa-router": "^7.4.0",
+    "nodemon": "^2.0.2",
+    "ts-node": "^8.6.2",
+    "typescript": "^3.7.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch-server": "nodemon --watch 'src/**/*' -e ts,tsx --exec ts-node ./src/server.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vitao18/Facebook-clone-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vitao18/Facebook-clone-api/issues"
+  },
+  "homepage": "https://github.com/Vitao18/Facebook-clone-api#readme"
+}
